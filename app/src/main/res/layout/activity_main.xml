@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="SHOES DESIGN"
+        android:textColor="#FF5722"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo1"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="The place where dreams come true"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/tv1"
+        android:src="@drawable/logo" />
+<Button
+    android:id="@+id/startbt"
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+    android:layout_below="@+id/tv2"
+    android:layout_marginTop="40dp"
+    android:layout_centerHorizontal="true"
+    android:text="start"
+    android:onClick="onClick" />
+
+
+
+</RelativeLayout>
