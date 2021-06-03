@@ -47,7 +47,7 @@ public class List extends AppCompatActivity {
 
                 AlertDialog.Builder alert = new AlertDialog.Builder(List.this);
                 alert.setTitle("delete item");
-                alert.setMessage("are you sure you want to delete player?");
+                alert.setMessage("are you sure you want to delete shoe?");
                 alert.setIcon(R.drawable.x);
                 alert.setCancelable(false);
 
